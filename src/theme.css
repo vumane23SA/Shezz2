@@ -1,0 +1,460 @@
+:root {
+  color: #293633;
+  background: #fffdfa;
+  --blue: #38665b;
+  --navy: #29473f;
+  --pale: #edf4ef;
+  --gold: #cf8875;
+}
+
+body {
+  background: #fffdfa;
+  color: #293633;
+}
+
+h1 em,
+h2 em,
+.eyebrow,
+.kicker {
+  color: #b45e67;
+}
+
+.topbar {
+  background: #29473f;
+  color: #f5eee8;
+}
+
+.topbar span,
+.stripGrid svg {
+  color: #e9b19e;
+}
+
+header {
+  background: #fffdfa;
+}
+
+.brand,
+.footerBrand {
+  color: #29473f;
+}
+
+.nav nav button.active,
+.nav nav button:hover,
+.textlink {
+  color: #b45e67;
+}
+
+.hero {
+  background: linear-gradient(112deg, #f6e9e5 0%, #fffdfa 62%);
+}
+
+.hero h1 {
+  color: #29473f;
+  font-size: 64px;
+  letter-spacing: 0;
+}
+
+.hero p {
+  color: #626c66;
+}
+
+.heroPerks {
+  color: #46554d;
+}
+
+.heroPerks svg {
+  color: #b45e67;
+}
+
+.heroVisual > .heroMainImage {
+  box-shadow: 22px 22px 0 #e6c9c0;
+}
+
+.heroVisual > .heroInsetImage {
+  position: absolute;
+  top: 28px;
+  right: -24px;
+  z-index: 2;
+  width: 34%;
+  height: auto;
+  aspect-ratio: 3 / 4;
+  border: 6px solid #fffdfa;
+  border-radius: 8px;
+  box-shadow: 0 14px 35px #29363330;
+}
+
+.floatCard {
+  left: -40px;
+  border: 1px solid #f0e3df;
+}
+
+.circleIcon {
+  background: #f7e7e2;
+  color: #b45e67;
+}
+
+.featureStrip {
+  background: #38665b;
+}
+
+.stripGrid small {
+  color: #d7e7df;
+}
+
+.sectionHead p,
+.pageHead p {
+  color: #707b74;
+}
+
+.serviceCard {
+  border-color: #eadfd9;
+  border-radius: 8px;
+  box-shadow: 0 7px 24px #41332b0d;
+}
+
+.serviceImage span {
+  color: #315b50;
+  border-radius: 3px;
+}
+
+.serviceBody h3 {
+  color: #29473f;
+}
+
+.serviceMeta strong {
+  color: #38665b;
+}
+
+.serviceBody button {
+  color: #b45e67;
+}
+
+.rewardsBanner {
+  background: linear-gradient(115deg, #29473f, #4d7568);
+}
+
+.kicker.light {
+  color: #f0c4ae;
+}
+
+.rewardsBanner h2 em {
+  color: #f0c4ae;
+}
+
+.rewardsBanner p {
+  color: #e1ebe5;
+}
+
+.stampTop,
+.stampBottom {
+  color: #b45e67;
+}
+
+.stamps > div,
+.progressStamps > div {
+  border-color: #ddc4bc;
+  color: #c7a9a0;
+}
+
+.welcomeSection {
+  padding: 76px 0;
+  background: #f7eeea;
+}
+
+.welcomeSectionInner {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  align-items: center;
+  gap: 68px;
+}
+
+.welcomeSection h2 {
+  max-width: 470px;
+  margin: 14px 0;
+  color: #29473f;
+  font-size: 42px;
+  line-height: 1.2;
+}
+
+.welcomeSection p {
+  max-width: 430px;
+  color: #65716a;
+  line-height: 1.8;
+}
+
+.welcomeImagePair {
+  display: grid;
+  grid-template-columns: 1.15fr 0.85fr;
+  align-items: center;
+  gap: 14px;
+  height: 330px;
+}
+
+.welcomeImagePair img {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.welcomeImagePair img:first-child {
+  border-radius: 110px 110px 8px 8px;
+}
+
+.welcomeImagePair img:last-child {
+  align-self: center;
+  height: 78%;
+}
+
+.footerBottom {
+  color: #78817b;
+}
+
+.chatLauncher,
+.chatHeader,
+.chatForm button,
+.chatBubble.user {
+  background: #38665b;
+}
+
+.chatMessages {
+  background: #f7f2ef;
+}
+
+.chatBubble.assistant {
+  color: #29473f;
+  border-color: #eadfd9;
+}
+
+.chatForm input {
+  border-color: #ddc9c2;
+}
+
+.chatPanel {
+  border-color: #eadfd9;
+  border-radius: 8px;
+}
+
+.chips button.selected,
+.slots button.selected,
+.paymentChoices button.chosen,
+.serviceSelect button.chosen,
+.stylistGrid button.chosen {
+  border-color: #38665b;
+  background: #edf4ef;
+  color: #29473f;
+}
+
+@media (max-width: 700px) {
+  .hero h1 {
+    font-size: 50px;
+  }
+
+  .heroVisual > .heroInsetImage {
+    right: -8px;
+    top: 18px;
+    width: 34%;
+    border-width: 4px;
+  }
+
+  .floatCard {
+    left: -12px;
+  }
+
+  .welcomeSection {
+    padding: 58px 0;
+  }
+
+  .welcomeSectionInner {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .welcomeSection h2 {
+    font-size: 34px;
+  }
+
+  .welcomeImagePair {
+    height: 250px;
+  }
+}
+
+.loginPage {
+  background: #fffdfa;
+}
+
+.loginLayout {
+  width: min(100%, 1010px);
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 0.9fr;
+  align-items: center;
+  gap: 64px;
+}
+
+.loginWelcome h1 {
+  max-width: 440px;
+  margin: 17px 0;
+  color: #29473f;
+  font-size: 48px;
+  line-height: 1.12;
+}
+
+.loginWelcome p {
+  max-width: 440px;
+  color: #65716a;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.loginWelcome img {
+  display: block;
+  width: 100%;
+  height: 275px;
+  margin-top: 27px;
+  border-radius: 8px;
+  object-position: center 35%;
+}
+
+.loginPanel {
+  padding: 34px;
+  border: 1px solid #eadfd9;
+  border-radius: 8px;
+  background: white;
+  box-shadow: 0 12px 35px #41332b0d;
+}
+
+.loginPanel h2 {
+  margin-bottom: 8px;
+  color: #29473f;
+  font-size: 31px;
+}
+
+.loginSubheading {
+  margin-bottom: 23px;
+  color: #707b74;
+  font-size: 13px;
+}
+
+.loginRoles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  padding: 4px;
+  margin-bottom: 23px;
+  border-radius: 5px;
+  background: #f7eeea;
+}
+
+.loginRoles button {
+  min-height: 42px;
+  border: 0;
+  border-radius: 3px;
+  background: transparent;
+  color: #65716a;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.loginRoles button.selected {
+  background: white;
+  color: #29473f;
+  box-shadow: 0 1px 5px #29363312;
+}
+
+.authModes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px;
+  margin: -10px 0 20px;
+  border-bottom: 1px solid #e8e5df;
+}
+
+.authModes button {
+  min-height: 40px;
+  border: 0;
+  border-bottom: 2px solid transparent;
+  background: transparent;
+  color: #65716a;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.authModes button.selected {
+  border-bottom-color: #b45e67;
+  color: #29473f;
+}
+
+.bookingAccountGate {
+  max-width: 680px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bookingAccountGate > svg {
+  color: #b45e67;
+}
+
+.bookingAccountGate h2 {
+  margin: 15px 0 8px;
+  color: #29473f;
+  font-size: 27px;
+}
+
+.bookingAccountGate p {
+  max-width: 490px;
+  margin: 0 auto 20px;
+  color: #65716a;
+  line-height: 1.6;
+}
+
+.loginForm {
+  display: grid;
+  gap: 13px;
+}
+
+.loginForm label {
+  display: grid;
+  gap: 8px;
+  color: #39473f;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.loginForm input {
+  width: 100%;
+  min-height: 46px;
+  padding: 12px;
+  border: 1px solid #d9dfda;
+  border-radius: 4px;
+  outline-color: #38665b;
+}
+
+.loginForm > small {
+  color: #78817b;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.loginForm .btn {
+  margin-top: 5px;
+}
+
+@media (max-width: 700px) {
+  .loginLayout {
+    grid-template-columns: 1fr;
+    gap: 26px;
+  }
+
+  .loginWelcome h1 {
+    font-size: 39px;
+  }
+
+  .loginWelcome img {
+    height: 190px;
+    margin-top: 18px;
+  }
+
+  .loginPanel {
+    padding: 24px;
+  }
+}

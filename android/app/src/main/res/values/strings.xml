@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SHEZZ Beauty Studio</string>
+    <string name="title_activity_main">SHEZZ Beauty Studio</string>
+    <string name="package_name">com.shezz.beauty</string>
+    <string name="custom_url_scheme">com.shezz.beauty</string>
+</resources>

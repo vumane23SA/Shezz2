@@ -1,0 +1,9 @@
+{
+  "appId": "com.shezz.beauty",
+  "appName": "SHEZZ Beauty Studio",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}
